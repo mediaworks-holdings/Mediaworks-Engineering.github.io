@@ -1,0 +1,13 @@
+#map {
+     height: 95vh;
+}
+body { background-color: black; 
+margin: 0;}
+#player { 
+    background-color: blueviolet;
+    margin:0;
+}
+#video {
+    margin:0;
+    vertical-align: top;
+}
