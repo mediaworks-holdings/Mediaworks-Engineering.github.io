@@ -41,6 +41,7 @@
         // listened-for when the URL is not on the white-list is 'loadedmetadata'.
         else if (video.canPlayType('application/vnd.apple.mpegurl')) {
           video.src = videoSrc;
+          console.log("MSE supported here looks like it...")
         }
       </script>
 <script src="geojson.js"> </script>
@@ -49,6 +50,14 @@
 
         var map = L.map('map').setView([-40.34, 174.44], 6);
        function changeURL(newurl) {
+        console.log("Got req to change url : " + newurl);
+        var video = document.getElementById('video');
+        var videoSrc = newurl;
+        if (Hls.isSupported()) {
+          var hls = new Hls();
+          hls.loadSource(videoSrc);
+          hls.attachMedia(video);
+        }
         videoSrc = newurl;
        }
 
@@ -60,7 +69,7 @@
       for (i=0;i<feature.properties.brands.length;i++){
                 var url = feature.properties.brands[i].url;
                 var brandName = feature.properties.brands[i].name;
-                var brandstring = "<br><span onclick='changeURL('"+toString(url)+ "')' s0tyle='font-weight:bold'>"+brandName+":"+ url  + " </span>"
+                var brandstring = `<br><span onclick="changeURL('${url}')" style='font-weight:bold'>${brandName}</span>`
                 popupContent = popupContent + brandstring;
       }
       

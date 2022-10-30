@@ -25,7 +25,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "oil-well",
           "market": "Orewa",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "MoreFM", "url": "https://livestream.mediaworks.nz/radio_origin/more_[ORW]_128kbps/playlist.m3u8"}, {"name": "The Rock", "url": "https://livestream.mediaworks.nz/radio_origin/rock_[ORW]_128kbps/playlist.m3u8"},{ "name":"Magic", "url": "https://livestream.mediaworks.nz/radio_origin/magic_[ORW]_128kbps/playlist.m3u8"}],
           "urls": ["https://livestream.mediaworks.nz/radio_origin/today_[ORW]_128kbps/playlist.m3u8","https://livestream.mediaworks.nz/radio_origin/rock_[ORW]_128kbps/playlist.m3u8","https://livestream.mediaworks.nz/radio_origin/more_[ORW]_128kbps/playlist.m3u8"]
         },
         "geometry": {
