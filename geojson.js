@@ -7,7 +7,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "oil-well",
-          "market": "Auckland"
+          "market": "Auckland",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -24,8 +25,8 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "oil-well",
           "market": "Orewa",
-          "brands": ["TodayFM","The Rock","MoreFM"],
-          "urls": ["","","https://livestream.mediaworks.nz/radio_origin/more_[ORW]_128kbps/playlist.m3u8"]
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "urls": ["https://livestream.mediaworks.nz/radio_origin/today_[ORW]_128kbps/playlist.m3u8","https://livestream.mediaworks.nz/radio_origin/rock_[ORW]_128kbps/playlist.m3u8","https://livestream.mediaworks.nz/radio_origin/more_[ORW]_128kbps/playlist.m3u8"]
         },
         "geometry": {
           "type": "Point",
@@ -41,7 +42,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Northland"
+          "market": "Northland",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -57,7 +59,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Kerikeri"
+          "market": "Kerikeri",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -73,7 +76,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Hamilton"
+          "market": "Hamilton",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -89,7 +93,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Tauranga"
+          "market": "Tauranga",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -105,7 +110,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Rotorua"
+          "market": "Rotorua",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -121,7 +127,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Hastings"
+          "market": "Hastings",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -137,7 +144,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Manawatu"
+          "market": "Manawatu",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -153,7 +161,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Wellington"
+          "market": "Wellington",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -169,7 +178,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Whanganui"
+          "market": "Whanganui",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -185,7 +195,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Wairarapa"
+          "market": "Wairarapa",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -201,7 +212,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Thames"
+          "market": "Thames",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -217,7 +229,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Timaru"
+          "market": "Timaru",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -233,7 +246,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Taupo"
+          "market": "Taupo",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -249,7 +263,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Southland"
+          "market": "Southland",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -265,7 +280,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Queenstown"
+          "market": "Queenstown",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -281,7 +297,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Nelson"
+          "market": "Nelson",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -297,7 +314,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Kapiti"
+          "market": "Kapiti",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -313,7 +331,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Gisbourne"
+          "market": "Gisbourne",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -329,7 +348,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Dunedin"
+          "market": "Dunedin",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -345,7 +365,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Christchurch"
+          "market": "Christchurch",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -361,7 +382,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Blenheim"
+          "market": "Blenheim",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",
@@ -377,7 +399,8 @@ var geojsonFeature = {
           "marker-color": "#7e7e7e",
           "marker-size": "medium",
           "marker-symbol": "",
-          "market": "Taranaki"
+          "market": "Taranaki",
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
         },
         "geometry": {
           "type": "Point",

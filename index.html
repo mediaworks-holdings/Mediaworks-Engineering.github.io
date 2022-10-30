@@ -48,9 +48,24 @@
         
 
         var map = L.map('map').setView([-40.34, 174.44], 6);
-       
+       function changeURL(newurl) {
+        videoSrc = newurl;
+       }
+
         function onEachFeature(feature, layer) {
-		var popupContent = `<p> ${feature.properties.brands} 
+		var popupContent = `<p><ul>`;
+      var length = feature.properties.brands.length;
+      var brand1 = feature.properties.brands[1];
+      var brand2 = feature.properties.brands[2];
+      for (i=0;i<feature.properties.brands.length;i++){
+                var url = feature.properties.brands[i].url;
+                var brandName = feature.properties.brands[i].name;
+                var brandstring = "<br><span onclick='changeURL('"+toString(url)+ "')' s0tyle='font-weight:bold'>"+brandName+":"+ url  + " </span>"
+                popupContent = popupContent + brandstring;
+      }
+      
+      popupContent = popupContent + `
+          </ul>
         </p>
         <p>
             ${feature.properties.market}
