@@ -55,7 +55,12 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Northland",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
+          "brands": [{"name": "MoreFM", "url": "https://livestream.mediaworks.nz/radio_origin/more_[WHG]_128kbps/playlist.m3u8","logo":"MOREFM.png"},
+          {"name": "The Rock", "url": "https://livestream.mediaworks.nz/radio_origin/rock_[WHG]_128kbps/playlist.m3u8","logo":"ROCK.png"},
+          { "name":"Edge", "url": "https://livestream.mediaworks.nz/radio_origin/edge_[WHG]_128kbps/playlist.m3u8","logo":"EDGE.png"},
+          { "name":"Mai", "url": "https://livestream.mediaworks.nz/radio_origin/mai_[WHG]_128kbps/playlist.m3u8","logo":"MAI.png"},
+          { "name":"Today", "url": "https://livestream.mediaworks.nz/radio_origin/today_[WHG]_128kbps/playlist.m3u8","logo":"TODAY.png"},
+          { "name":"Sound", "url": "https://livestream.mediaworks.nz/radio_origin/sound_[WHG]_128kbps/playlist.m3u8","logo":"SOUND.png"}],
         },
         "geometry": {
           "type": "Point",
@@ -72,7 +77,8 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Kerikeri",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
+          "brands": [
+          { "name":"Sound", "url": "https://livestream.mediaworks.nz/radio_origin/sound_[KKE]_128kbps/playlist.m3u8","logo":"SOUND.png"}],
         },
         "geometry": {
           "type": "Point",
