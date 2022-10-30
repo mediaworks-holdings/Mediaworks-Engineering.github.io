@@ -8,7 +8,18 @@
  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
  integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
  crossorigin=""></script>
-
+ <style>
+  .spanImage{
+      
+      background-repeat: no-repeat;
+      background-size: 100px 30px;
+      
+      width: 120px;
+      height: 30px;
+      display: inline-block;
+      padding: 10px;
+  }
+  </style>
 </head>
 <body>
 
@@ -68,8 +79,10 @@
       var brand2 = feature.properties.brands[2];
       for (i=0;i<feature.properties.brands.length;i++){
                 var url = feature.properties.brands[i].url;
-                var brandName = feature.properties.brands[i].name;
-                var brandstring = `<br><span onclick="changeURL('${url}')" style='font-weight:bold'>${brandName}</span>`
+                var brandName = "";
+             //   var brandName = feature.properties.brands[i].name;
+                var logo = feature.properties.brands[i].logo;
+                var brandstring = `<br><span class="spanImage" style="background-image: url('logos/${logo}');" onclick="changeURL('${url}')" style='font-weight:bold'>${brandName}</span>`
                 popupContent = popupContent + brandstring;
       }
       

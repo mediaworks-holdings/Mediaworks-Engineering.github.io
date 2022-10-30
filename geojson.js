@@ -8,7 +8,17 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "oil-well",
           "market": "Auckland",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "MoreFM", "url": "https://livestream.mediaworks.nz/radio_origin/more_128kbps/playlist.m3u8","logo":"MOREFM.png"},
+          {"name": "The Rock", "url": "https://livestream.mediaworks.nz/radio_origin/rock_128kbps/playlist.m3u8","logo":"ROCK.png"},
+          { "name":"Magic", "url": "https://livestream.mediaworks.nz/radio_origin/magic_128kbps/playlist.m3u8","logo":"MAGIC.png"},
+          { "name":"Breeze", "url": "https://livestream.mediaworks.nz/radio_origin/breeze_128kbps/playlist.m3u8","logo":"BREEZE.png"},
+          { "name":"George", "url": "https://livestream.mediaworks.nz/radio_origin/george_128kbps/playlist.m3u8","logo":"GEORGE.png"},
+          { "name":"Edge", "url": "https://livestream.mediaworks.nz/radio_origin/edge_128kbps/playlist.m3u8","logo":"EDGE.png"},
+          { "name":"Mai", "url": "https://livestream.mediaworks.nz/radio_origin/maifm_128kbps/playlist.m3u8","logo":"MAI.png"},
+          { "name":"Today", "url": "https://livestream.mediaworks.nz/radio_origin/today_128kbps/playlist.m3u8","logo":"TODAY.png"},
+          { "name":"TodayAM", "url": "https://livestream.mediaworks.nz/radio_origin/today_am_128kbps/playlist.m3u8","logo":"TODAYAM.png"},
+          { "name":"Humm", "url": "https://livestream.mediaworks.nz/radio_origin/humm_128kbps/playlist.m3u8","logo":"HUMM.png"},
+          { "name":"Sound", "url": "https://livestream.mediaworks.nz/radio_origin/sound_128kbps/playlist.m3u8","logo":"SOUND.png"}],
         },
         "geometry": {
           "type": "Point",
@@ -25,8 +35,10 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "oil-well",
           "market": "Orewa",
-          "brands": [{"name": "MoreFM", "url": "https://livestream.mediaworks.nz/radio_origin/more_[ORW]_128kbps/playlist.m3u8"}, {"name": "The Rock", "url": "https://livestream.mediaworks.nz/radio_origin/rock_[ORW]_128kbps/playlist.m3u8"},{ "name":"Magic", "url": "https://livestream.mediaworks.nz/radio_origin/magic_[ORW]_128kbps/playlist.m3u8"}],
-          "urls": ["https://livestream.mediaworks.nz/radio_origin/today_[ORW]_128kbps/playlist.m3u8","https://livestream.mediaworks.nz/radio_origin/rock_[ORW]_128kbps/playlist.m3u8","https://livestream.mediaworks.nz/radio_origin/more_[ORW]_128kbps/playlist.m3u8"]
+          "brands": [{"name": "MoreFM", "url": "https://livestream.mediaworks.nz/radio_origin/more_[ORW]_128kbps/playlist.m3u8","logo":"MOREFM.png"},
+           {"name": "The Rock", "url": "https://livestream.mediaworks.nz/radio_origin/rock_[ORW]_128kbps/playlist.m3u8","logo":"ROCK.png"},
+           { "name":"Magic", "url": "https://livestream.mediaworks.nz/radio_origin/magic_[ORW]_128kbps/playlist.m3u8","logo":"MAGIC.png"},
+           { "name":"Sound", "url": "https://livestream.mediaworks.nz/radio_origin/sound_[ORW]_128kbps/playlist.m3u8","logo":"SOUND.png"}],
         },
         "geometry": {
           "type": "Point",
@@ -43,7 +55,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Northland",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -60,7 +72,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Kerikeri",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -77,7 +89,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Hamilton",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -94,7 +106,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Tauranga",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -111,7 +123,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Rotorua",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -128,7 +140,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Hastings",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -145,7 +157,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Manawatu",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -162,7 +174,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Wellington",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -179,7 +191,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Whanganui",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -196,7 +208,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Wairarapa",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -213,7 +225,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Thames",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -230,7 +242,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Timaru",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -247,7 +259,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Taupo",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -264,7 +276,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Southland",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -281,7 +293,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Queenstown",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -298,7 +310,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Nelson",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -315,7 +327,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Kapiti",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -332,7 +344,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Gisbourne",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -349,7 +361,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Dunedin",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -366,7 +378,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Christchurch",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -383,7 +395,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Blenheim",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
@@ -400,7 +412,7 @@ var geojsonFeature = {
           "marker-size": "medium",
           "marker-symbol": "",
           "market": "Taranaki",
-          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}],
+          "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
         },
         "geometry": {
           "type": "Point",
