@@ -678,12 +678,12 @@ var geojsonFeature = {
 					{
 						"name": "More FM Ashburton",
 						"url": "https://livestream.mediaworks.nz/radio_origin/more_[ASH]_128kbps/playlist.m3u8",
-						"logo": "MORE.png"
+						"logo": "MOREFM.png"
 					},
 					{
 						"name": "More FM Oamaru",
 						"url": "https://livestream.mediaworks.nz/radio_origin/more_[OAM]_128kbps/playlist.m3u8",
-						"logo": "MORE.png"
+						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Rock",
@@ -1001,6 +1001,58 @@ var geojsonFeature = {
 				"coordinates": [
 					174.0879821777344,
 					-39.068246728525246
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"market": "Ashburton",
+				"brands": [{
+					"name": "TodayFM",
+					"url": "urltoday"
+				}, {
+					"name": "The Rock",
+					"url": "UrlRocking"
+				}, {
+					"name": "MoreFM",
+					"url": "someurlformore"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					171.7518436053502,
+					-43.90066873314788 					
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"market": "Ashburton",
+				"brands": [{
+					"name": "TodayFM",
+					"url": "urltoday"
+				}, {
+					"name": "The Rock",
+					"url": "UrlRocking"
+				}, {
+					"name": "MoreFM",
+					"url": "someurlformore"
+				}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					170.96645650661708,
+					-45.09724145964384  					
 				]
 			}
 		}
