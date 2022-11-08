@@ -8,6 +8,8 @@
  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
  integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
  crossorigin=""></script>
+ <script src="status2.js">   </script>
+ <script src="status.js">   </script>
  <style>
   .spanImage{
       
@@ -25,13 +27,20 @@
 
     <div id=map>
     </div>
+ <div id="hidden">
+<input type="text" id="windowEnd"/>
+<input type="text" id="windowStart"/>
+
+ </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.2.5-0.canary.8649/hls.min.js"></script>
     <div id="player">
-      <audio id="video" autoplay controls></audio>
+      <audio id="video" autoplay controls></audio> <label class="center">Status:</label>
+      <pre id="statusOut" class="center" style="white-space: pre-wrap"></pre>
     </div>
     <script>
         var video = document.getElementById('video');
-        var videoSrc = 'https://livestream.mediaworks.nz/radio_origin/more_[PMR]_128kbps/playlist.m3u8';
+        var videoSrc = 'http://127.0.0.1:9999';
         if (Hls.isSupported()) {
           var hls = new Hls();
           hls.loadSource(videoSrc);
@@ -93,6 +102,11 @@
             ${feature.properties.market}
         </p>
         `;
+        if (feature.properties.comesfrom) {
+          popupContent = popupContent + `
+            <b>This market is streamed from ${feature.properties.comesfrom}
+          `;
+        }
 
 		if (feature.properties && feature.properties.popupContent) {
 			popupContent += feature.properties.popupContent;
