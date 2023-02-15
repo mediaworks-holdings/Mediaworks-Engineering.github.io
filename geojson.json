@@ -331,7 +331,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "market": "Gisbourne",
+        "market": "Gisborne",
         "brands": [{"name": "TodayFM", "url": "urltoday"}, {"name": "The Rock", "url": "UrlRocking"},{ "name":"MoreFM", "url": "someurlformore"}]
       },
       "geometry": {
