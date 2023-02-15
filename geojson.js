@@ -978,7 +978,7 @@ var geojsonFeature = {
 				"marker-color": "#7e7e7e",
 				"marker-size": "medium",
 				"marker-symbol": "",
-				"market": "Gisbourne",
+				"market": "Gisborne",
 				"brands": [{
 						"name": "More FM",
 						"url": "https://livestream.mediaworks.nz/radio_origin/more_[GIS]_128kbps/playlist.m3u8",
