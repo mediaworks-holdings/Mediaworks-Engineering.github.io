@@ -28,8 +28,8 @@
     <div id=map>
     </div>
  <div id="hidden">
-<input type="text" id="windowEnd"/>
-<input type="text" id="windowStart"/>
+<input class=statusbox type="text" id="windowEnd"/>
+<input class=statusbox type="text" id="windowStart"/>
 
  </div>
 
@@ -69,8 +69,18 @@
         
 
         var map = L.map('map').setView([-40.34, 174.44], 6);
-       function changeURL(newurl) {
-        console.log("Got req to change url : " + newurl);
+       function changeURL(newurl, brandname,market,comesfrom) {
+        console.log("Got req to change url : " + newurl + " comes from " + comesfrom);
+        var currentBrand = document.getElementById('windowEnd');
+        var currentMarket = document.getElementById('windowStart');
+        currentBrand.value = brandname;
+        if (comesfrom != "Local") {
+          comesfrom = " comes from: " + comesfrom
+          currentMarket.value = market + comesfrom;
+        } else {
+          currentMarket.value = market;
+        }
+        
         var video = document.getElementById('video');
         var videoSrc = newurl;
         if (Hls.isSupported()) {
@@ -84,14 +94,23 @@
         function onEachFeature(feature, layer) {
 		var popupContent = `<p><ul>`;
       var length = feature.properties.brands.length;
+      var market = feature.properties.market;
+      var comesfrom = "";
+      comesfrom = feature.properties.comesfrom;
       var brand1 = feature.properties.brands[1];
       var brand2 = feature.properties.brands[2];
       for (i=0;i<feature.properties.brands.length;i++){
                 var url = feature.properties.brands[i].url;
-                var brandName = "";
-             //   var brandName = feature.properties.brands[i].name;
-                var logo = feature.properties.brands[i].logo;
-                var brandstring = `<br><span class="spanImage" style="background-image: url('logos/${logo}');" onclick="changeURL('${url}')" style='font-weight:bold'>${brandName}</span>`
+                
+                var brandName = feature.properties.brands[i].name;
+                var logo = feature.properties.brands[i].logo; 
+                if (comesfrom) {
+                  var brandstring = `<br><span class="spanImage" style="background-image: url('logos/${logo}');" onclick="changeURL('${url}', '${brandName}','${market}','${comesfrom}')" style='font-weight:bold'></span>`
+
+                } else {
+                  var brandstring = `<br><span class="spanImage" style="background-image: url('logos/${logo}');" onclick="changeURL('${url}', '${brandName}','${market}','Local')" style='font-weight:bold'></span>`
+
+                }
                 popupContent = popupContent + brandstring;
       }
       

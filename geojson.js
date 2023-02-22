@@ -995,19 +995,9 @@ var geojsonFeature = {
 						"logo": "EDGE.png"
 					},
 					{
-						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[GIS]_128kbps/playlist.m3u8",
-						"logo": "BREEZE.png"
-					},
-					{
 						"name": "Sound",
 						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[GIS]_128kbps/playlist.m3u8",
 						"logo": "SOUND.png"
-					},
-					{
-						"name": "Magic",
-						"url": "https://livestream.mediaworks.nz/radio_origin/magic_[GIS]_128kbps/playlist.m3u8",
-						"logo": "MAGIC.png"
 					},
 					{
 						"name": "Today",
@@ -1035,6 +1025,7 @@ var geojsonFeature = {
 				"marker-size": "medium",
 				"marker-symbol": "",
 				"market": "Wairoa",
+				"comesfrom": "Gisborne",
 				"brands": [{
 						"name": "More FM",
 						"url": "https://livestream.mediaworks.nz/radio_origin/more_[WAI]_128kbps/playlist.m3u8",
