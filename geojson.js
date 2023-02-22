@@ -1034,6 +1034,32 @@ var geojsonFeature = {
 				"marker-color": "#7e7e7e",
 				"marker-size": "medium",
 				"marker-symbol": "",
+				"market": "Wairoa",
+				"brands": [{
+						"name": "More FM",
+						"url": "https://livestream.mediaworks.nz/radio_origin/more_[WAI]_128kbps/playlist.m3u8",
+						"logo": "MOREFM.png"
+					},
+					{
+						"name": "The Rock",
+						"url": "https://livestream.mediaworks.nz/radio_origin/rock_[WAI]_128kbps/playlist.m3u8",
+						"logo": "ROCK.png"
+					}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					177.419714,
+					-39.034757
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
 				"market": "Dunedin",
 				"brands": [{
 						"name": "More FM",
