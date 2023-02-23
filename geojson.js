@@ -251,6 +251,11 @@ var geojsonFeature = {
 						"name": "Today",
 						"url": "https://livestream.mediaworks.nz/radio_origin/today_[TGA]_128kbps/playlist.m3u8",
 						"logo": "TODAY.png"
+					},
+					{
+						"name": "TodayAM",
+						"url": "https://livestream.mediaworks.nz/radio_origin/today_am_[TGA]_128kbps/playlist.m3u8",
+						"logo": "TODAYAM.png"
 					}, {
 						"name": "The Rock",
 						"url": "https://livestream.mediaworks.nz/radio_origin/rock_[TGA]_128kbps/playlist.m3u8",
