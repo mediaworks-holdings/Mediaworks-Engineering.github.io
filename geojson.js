@@ -880,6 +880,28 @@ var geojsonFeature = {
 				"marker-color": "#7e7e7e",
 				"marker-size": "medium",
 				"marker-symbol": "",
+				"market": "Central Otago",
+				"comesfrom": "Queenstown",
+				"brands": [{
+						"name": "More FM",
+						"url": "https://livestream.mediaworks.nz/radio_origin/more_[COT]_128kbps/playlist.m3u8",
+						"logo": "MOREFM.png"
+					}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					169.195714,
+					-45.043782
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
 				"market": "Nelson",
 				"brands": [{
 						"name": "More FM",
