@@ -509,6 +509,11 @@ var geojsonFeature = {
 						"logo": "TODAY.png"
 					},
 					{
+						"name": "TodayAM",
+						"url": "https://livestream.mediaworks.nz/radio_origin/today_[HAM]_128kbps/playlist.m3u8",
+						"logo": "TODAYAM.png"
+					},
+					{
 						"name": "Sound",
 						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[WTN]_128kbps/playlist.m3u8",
 						"logo": "SOUND.png"
@@ -1181,6 +1186,11 @@ var geojsonFeature = {
 						"logo": "TODAY.png"
 					},
 					{
+						"name": "TodayAM",
+						"url": "https://livestream.mediaworks.nz/radio_origin/today_[CHC]_128kbps/playlist.m3u8",
+						"logo": "TODAYAM.png"
+					},
+					{
 						"name": "Mai FM",
 						"url": "https://livestream.mediaworks.nz/radio_origin/mai_[CHC]_128kbps/playlist.m3u8",
 						"logo": "MAI.png"
@@ -1201,6 +1211,7 @@ var geojsonFeature = {
 				"marker-size": "medium",
 				"marker-symbol": "",
 				"market": "Blenheim",
+				"comesfrom": "Nelson",
 				"brands": [{
 						"name": "More FM",
 						"url": "https://livestream.mediaworks.nz/radio_origin/more_[BLM]_128kbps/playlist.m3u8",
@@ -1298,6 +1309,7 @@ var geojsonFeature = {
 				"marker-size": "medium",
 				"marker-symbol": "",
 				"market": "Balclutha",
+				"comesfrom": "Dunedin",
 				"brands": [
 					{
 						"name": "More FM Balclutha",
@@ -1320,6 +1332,7 @@ var geojsonFeature = {
 				"marker-size": "medium",
 				"marker-symbol": "",
 				"market": "Ashburton",
+				"comesfrom": "Timaru",
 				"brands": [
 					{
 						"name": "More FM Ashburton",
@@ -1342,6 +1355,7 @@ var geojsonFeature = {
 				"marker-size": "medium",
 				"marker-symbol": "",
 				"market": "Oamaru",
+				"comesfrom": "Timaru",
 				"brands": [
 					{
 						"name": "More FM Oamaru",
