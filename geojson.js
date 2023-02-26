@@ -1131,7 +1131,7 @@ var geojsonFeature = {
 					},
 					{
 						"name": "Radio Dunedin",
-						"url": "http://livestream.mediaworks.nz/radio_origin/Radio_Dunedin/playlist.m3u8",
+						"url": "https://livestream.mediaworks.nz/radio_origin/Radio_Dunedin/playlist.m3u8",
 						"logo": "RADIODUNEDIN.png"
 					}]
 			},
