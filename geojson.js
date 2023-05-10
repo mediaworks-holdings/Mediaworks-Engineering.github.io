@@ -43,14 +43,9 @@ var geojsonFeature = {
 						"logo": "MAI.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
-					},
-					{
-						"name": "TodayAM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_am_128kbps/playlist.m3u8",
-						"logo": "TODAYAM.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "Humm",
@@ -137,11 +132,6 @@ var geojsonFeature = {
 						"logo": "MAI.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[WHG]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
-					},
-					{
 						"name": "Sound",
 						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[WHG]_128kbps/playlist.m3u8",
 						"logo": "SOUND.png"
@@ -206,9 +196,9 @@ var geojsonFeature = {
 						"logo": "BREEZE.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[HAM]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[HAM]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "Sound",
@@ -247,28 +237,27 @@ var geojsonFeature = {
 				"marker-size": "medium",
 				"marker-symbol": "",
 				"market": "Tauranga",
-				"brands": [{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[TGA]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
-					},
+				"brands": [ {
+					"name": "ChannelX",
+					"url": "https://livestream.mediaworks.nz/radio_origin/chx_[TGA]_128kbps/playlist.m3u8",
+					"logo": "ChannelX.png"
+				},
 					{
-						"name": "TodayAM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_am_[TGA]_128kbps/playlist.m3u8",
-						"logo": "TODAYAM.png"
-					}, {
 						"name": "The Rock",
 						"url": "https://livestream.mediaworks.nz/radio_origin/rock_[TGA]_128kbps/playlist.m3u8",
 						"logo": "ROCK.png"
-					}, {
+					}, 
+					{
 						"name": "MoreFM",
 						"url": "https://livestream.mediaworks.nz/radio_origin/more_[TGA]_128kbps/playlist.m3u8",
 						"logo": "MOREFM.png"
-					},	{
+					},	
+					{
 						"name": "Edge",
 						"url": "https://livestream.mediaworks.nz/radio_origin/edge_[TGA]_128kbps/playlist.m3u8",
 						"logo": "EDGE.png"
-					},	{
+					},	
+					{
 						"name": "The Breeze",
 						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[TGA]_128kbps/playlist.m3u8",
 						"logo": "BREEZE.png"
@@ -326,9 +315,9 @@ var geojsonFeature = {
 						"logo": "BREEZE.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[ROT]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[ROT]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "Sound",
@@ -382,14 +371,9 @@ var geojsonFeature = {
 						"logo": "BREEZE.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[HST]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
-					},
-					{
-						"name": "TodayAM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_am_[HST]_128kbps/playlist.m3u8",
-						"logo": "TODAYAM.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[HST]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "Sound",
@@ -443,9 +427,9 @@ var geojsonFeature = {
 						"logo": "BREEZE.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[PMR]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[PMR]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "Sound",
@@ -504,14 +488,9 @@ var geojsonFeature = {
 						"logo": "BREEZE.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[WTN]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
-					},
-					{
-						"name": "TodayAM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[HAM]_128kbps/playlist.m3u8",
-						"logo": "TODAYAM.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[WTN]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "Sound",
@@ -570,11 +549,6 @@ var geojsonFeature = {
 						"logo": "BREEZE.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[WNG]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
-					},
-					{
 						"name": "Sound",
 						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[WNG]_128kbps/playlist.m3u8",
 						"logo": "SOUND.png"
@@ -621,9 +595,9 @@ var geojsonFeature = {
 						"logo": "BREEZE.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[MST]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[MST]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "Sound",
@@ -708,9 +682,9 @@ var geojsonFeature = {
 						"logo": "BREEZE.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[TIU]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[TIU]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "Sound",
@@ -815,9 +789,9 @@ var geojsonFeature = {
 						"logo": "MAGIC.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[IVC]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[IVC]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					}]
 			},
 			"geometry": {
@@ -866,9 +840,9 @@ var geojsonFeature = {
 						"logo": "MAGIC.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[QTN]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[QTN]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					}]
 			},
 			"geometry": {
@@ -939,9 +913,9 @@ var geojsonFeature = {
 						"logo": "MAGIC.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[NSN]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[NSN]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "George",
@@ -996,9 +970,9 @@ var geojsonFeature = {
 						"logo": "MAGIC.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[KAP]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[KAP]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					}]
 			},
 			"geometry": {
@@ -1035,11 +1009,6 @@ var geojsonFeature = {
 						"name": "Sound",
 						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[GIS]_128kbps/playlist.m3u8",
 						"logo": "SOUND.png"
-					},
-					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[GIS]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
 					},
 					{
 						"name": "Mai FM",
@@ -1125,11 +1094,6 @@ var geojsonFeature = {
 						"logo": "MAGIC.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[DUN]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
-					},
-					{
 						"name": "Radio Dunedin",
 						"url": "https://livestream.mediaworks.nz/radio_origin/Radio_Dunedin/playlist.m3u8",
 						"logo": "RADIODUNEDIN.png"
@@ -1179,16 +1143,6 @@ var geojsonFeature = {
 						"name": "Magic",
 						"url": "https://livestream.mediaworks.nz/radio_origin/magic_[CHC]_128kbps/playlist.m3u8",
 						"logo": "MAGIC.png"
-					},
-					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[CHC]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
-					},
-					{
-						"name": "TodayAM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[CHC]_128kbps/playlist.m3u8",
-						"logo": "TODAYAM.png"
 					},
 					{
 						"name": "Mai FM",
@@ -1243,9 +1197,9 @@ var geojsonFeature = {
 						"logo": "MAGIC.png"
 					},
 					{
-						"name": "Today",
-						"url": "https://livestream.mediaworks.nz/radio_origin/today_[BLM]_128kbps/playlist.m3u8",
-						"logo": "TODAY.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_[BLM]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
 					}]
 			},
 			"geometry": {
