@@ -1091,7 +1091,7 @@ var geojsonFeature = {
 					   {
 						"name": "George FM",
 						"url": "https://livestream.mediaworks.nz/radio_origin/george_%5BDUN%5D_128kbps/playlist.m3u8",
-						"logo": "George.png"
+						"logo": "GEORGE.png"
 					},
 					{
 						"name": "Magic",
@@ -1132,7 +1132,7 @@ var geojsonFeature = {
 					   {
 						"name": "George FM",
 						"url": "https://livestream.mediaworks.nz/radio_origin/george_[CHC]_128kbps/playlist.m3u8",
-						"logo": "George.png"
+						"logo": "GEORGE.png"
 					},
 					{
 						"name": "Edge",
