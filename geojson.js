@@ -1129,6 +1129,11 @@ var geojsonFeature = {
 						"url": "https://livestream.mediaworks.nz/radio_origin/rock_[CHC]_128kbps/playlist.m3u8",
 						"logo": "ROCK.png"
 					},
+					   {
+						"name": "George FM",
+						"url": "https://livestream.mediaworks.nz/radio_origin/george_[CHC]_128kbps/playlist.m3u8",
+						"logo": "George.png"
+					},
 					{
 						"name": "Edge",
 						"url": "https://livestream.mediaworks.nz/radio_origin/edge_[CHC]_128kbps/playlist.m3u8",
