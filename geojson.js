@@ -84,6 +84,11 @@ var geojsonFeature = {
 						"url": "https://livestream.mediaworks.nz/radio_origin/rock_[ORW]_128kbps/playlist.m3u8",
 						"logo": "ROCK.png"
 					},
+					   {
+						"name": "The Breeze",
+						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[ORW]_128kbps/playlist.m3u8",
+						"logo": "BREEZE.png"
+					},
 					{
 						"name": "Magic",
 						"url": "https://livestream.mediaworks.nz/radio_origin/magic_[ORW]_128kbps/playlist.m3u8",
@@ -125,6 +130,11 @@ var geojsonFeature = {
 						"name": "Edge",
 						"url": "https://livestream.mediaworks.nz/radio_origin/edge_[WHG]_128kbps/playlist.m3u8",
 						"logo": "EDGE.png"
+					},
+					   {
+						"name": "The Breeze",
+						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_%5BWHG%5D_128kbps/master.m3u8",
+						"logo": "BREEZE.png"
 					},
 					{
 						"name": "Mai",
@@ -548,6 +558,11 @@ var geojsonFeature = {
 						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[WNG]_128kbps/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
+					   {
+						"name": "Mai FM",
+						"url": "https://livestream.mediaworks.nz/radio_origin/mai_[WNG]_128kbps/playlist.m3u8",
+						"logo": "MAI.png"
+					},
 					{
 						"name": "Sound",
 						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[WNG]_128kbps/playlist.m3u8",
@@ -834,6 +849,11 @@ var geojsonFeature = {
 						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[QTN]_128kbps/playlist.m3u8",
 						"logo": "SOUND.png"
 					},
+					   {
+						"name": "George",
+						"url": "https://livestream.mediaworks.nz/radio_origin/george_[QTN]_128kbps/playlist.m3u8",
+						"logo": "GEORGE.png"
+					},
 					{
 						"name": "Magic",
 						"url": "https://livestream.mediaworks.nz/radio_origin/magic_[QTN]_128kbps/playlist.m3u8",
@@ -995,10 +1015,15 @@ var geojsonFeature = {
 						"url": "https://livestream.mediaworks.nz/radio_origin/more_[GIS]_128kbps/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
-					{
+					   {
 						"name": "The Rock",
 						"url": "https://livestream.mediaworks.nz/radio_origin/rock_[GIS]_128kbps/playlist.m3u8",
 						"logo": "ROCK.png"
+					},
+					{
+						"name": "The Breeze",
+						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_%5BGIS%5D_128kbps/master.m3u8",
+						"logo": "BREEZE.png"
 					},
 					{
 						"name": "Edge",
