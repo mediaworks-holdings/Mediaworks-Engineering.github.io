@@ -435,6 +435,7 @@ var geojsonFeature = {
 						"name": "The Breeze",
 						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[PMR]_128kbps/playlist.m3u8",
 						"logo": "BREEZE.png"
+		
 					},
 					{
 						"name": "ChannelX",
@@ -465,8 +466,8 @@ var geojsonFeature = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					175.5477905273436,
-					-39.82119422647453
+					175.62099869998846,
+					-40.350540046398635
 				]
 			}
 		},
@@ -628,8 +629,8 @@ var geojsonFeature = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					176.0346221923828,
-					-40.36642741921033
+					175.648255347809,
+					-40.95806191890908
 				]
 			}
 		},
@@ -890,8 +891,8 @@ var geojsonFeature = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					169.195714,
-					-45.043782
+					169.372613,
+					-45.214676
 				]
 			}
 		},
