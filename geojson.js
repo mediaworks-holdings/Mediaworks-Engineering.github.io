@@ -208,11 +208,6 @@ var geojsonFeature = {
 						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[WHG]_128kbps/playlist.m3u8",
 						"logo": "SOUND.png"
 					}
-					   {
-						"name": "Sound KeriKeri",
-						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[KKE]_128kbps/playlist.m3u8",
-						"logo": "SOUND.png"
-					},
 				]
 			},
 			"geometry": {
