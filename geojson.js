@@ -1092,7 +1092,7 @@ var geojsonFeature = {
 					{
 						"name": "ChannelX",
 						"url": "https://livestream.mediaworks.nz/radio_origin/chx_128kbps/playlist.m3u8",
-						"logo": "CHANNELX.png"
+						"logo": "ChannelX.png"
 					},
 					{
 						"name": "The Rock",
