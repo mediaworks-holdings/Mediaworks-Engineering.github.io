@@ -67,6 +67,68 @@ var geojsonFeature = {
 				]
 			}
 		},
+		     {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "oil-well",
+				"market": "DAI Streams",
+				"brands": [{
+						"name": "MoreFM",
+						"url": "https://digitalstreams.mediaworks.nz:443/more_net/playlist.m3u8",
+						"logo": "MOREFM.png"
+					},
+					{
+						"name": "The Rock",
+						"url": "https://digitalstreams.mediaworks.nz:443/rock_net/playlist.m3u8",
+						"logo": "ROCK.png"
+					},
+					{
+						"name": "Magic",
+						"url": "https://digitalstreams.mediaworks.nz:443/mmusic_net/playlist.m3u8",
+						"logo": "MAGIC.png"
+					},
+					{
+						"name": "Breeze",
+						"url": "https://digitalstreams.mediaworks.nz:443/breeze_net/playlist.m3u8",
+						"logo": "BREEZE.png"
+					},
+					{
+						"name": "George",
+						"url": "https://digitalstreams.mediaworks.nz:443/george_net/playlist.m3u8",
+						"logo": "GEORGE.png"
+					},
+					{
+						"name": "Edge",
+						"url": "https://digitalstreams.mediaworks.nz:443/edge_net/playlist.m3u8",
+						"logo": "EDGE.png"
+					},
+					{
+						"name": "Mai",
+						"url": "https://digitalstreams.mediaworks.nz:443/mai_net/playlist.m3u8",
+						"logo": "MAI.png"
+					},
+					{
+						"name": "Humm",
+						"url": "https://digitalstreams.mediaworks.nz:443/humm_net/playlist.m3u8",
+						"logo": "HUMM.png"
+					},
+					{
+						"name": "Sound",
+						"url": "https://digitalstreams.mediaworks.nz:443/sound_net/playlist.m3u8",
+						"logo": "SOUND.png"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-176.5526252340251,
+					-43.846858952049416
+				]
+			}
+		},
 		{
 			"type": "Feature",
 			"properties": {
