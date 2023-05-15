@@ -1090,9 +1090,9 @@ var geojsonFeature = {
 						"logo": "MOREFM.png"
 					},
 					{
-						"name": "More AM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more1006_[DUN]_128kbps/playlist.m3u8",
-						"logo": "MORE AM.png"
+						"name": "ChannelX",
+						"url": "https://livestream.mediaworks.nz/radio_origin/chx_128kbps/playlist.m3u8",
+						"logo": "CHANNELX.png"
 					},
 					{
 						"name": "The Rock",
