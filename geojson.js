@@ -1245,7 +1245,7 @@ var geojsonFeature = {
 					   {
 						"name": "Anthemz",
 						"url": "https://livestream.mediaworks.nz/radio_origin/anthemz_[CHC]_128kbps/playlist.m3u8",
-						"logo": "ChannelX.png"
+						"logo": "Anthemz.png"
 					},
 					{
 						"name": "Mai FM",
