@@ -1242,6 +1242,11 @@ var geojsonFeature = {
 						"url": "https://livestream.mediaworks.nz/radio_origin/magic_[CHC]_128kbps/playlist.m3u8",
 						"logo": "MAGIC.png"
 					},
+					   {
+						"name": "Anthemz",
+						"url": "https://livestream.mediaworks.nz/radio_origin/anthemz_[CHC]_128kbps/playlist.m3u8",
+						"logo": "ChannelX.png"
+					},
 					{
 						"name": "Mai FM",
 						"url": "https://livestream.mediaworks.nz/radio_origin/mai_[CHC]_128kbps/playlist.m3u8",
