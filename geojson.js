@@ -118,7 +118,7 @@ var geojsonFeature = {
 						"name": "Sound",
 						"url": "https://digitalstreams.mediaworks.nz:443/sound_net/playlist.m3u8",
 						"logo": "SOUND.png"
-					}
+					},
 					   {
 						"name": "ChannelX",
 						"url": "https://digitalstreams.mediaworks.nz:443/channelx_net/playlist.m3u8",
