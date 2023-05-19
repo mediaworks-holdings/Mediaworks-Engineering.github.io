@@ -110,11 +110,6 @@ var geojsonFeature = {
 						"logo": "MAI.png"
 					},
 					{
-						"name": "Humm",
-						"url": "https://digitalstreams.mediaworks.nz:443/humm_net/playlist.m3u8",
-						"logo": "HUMM.png"
-					},
-					{
 						"name": "Sound",
 						"url": "https://digitalstreams.mediaworks.nz:443/sound_net/playlist.m3u8",
 						"logo": "SOUND.png"
