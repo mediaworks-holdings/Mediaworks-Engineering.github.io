@@ -1,150 +1,146 @@
-<html>
-<head>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
-    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
-    crossorigin=""/>
-    <link rel="stylesheet" href="map.css"/>
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
- <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
- integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
- crossorigin=""></script>
- <script src="status2.js">   </script>
- <script src="status.js">   </script>
- <style>
-  .spanImage{
-      
-      background-repeat: no-repeat;
-      background-size: 100px 30px;
-      
-      width: 120px;
-      height: 30px;
-      display: inline-block;
-      padding: 10px;
-  }
-  </style>
-</head>
-<body>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Password Protected</title>
 
-    <div id=map>
-    </div>
- <div id="hidden">
-<input class=statusbox type="text" id="windowEnd"/>
-<input class=statusbox type="text" id="windowStart"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
 
- </div>
+        <style>
+            *,
+            *:after,
+            *:before {
+                box-sizing: border-box;
+            }
+            body,
+            html {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                font-weight: 300;
+                font-size: 16px;
+                background: #f2f2f2;
+                color: #2D3737;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100%;
+            }
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.2.5-0.canary.8649/hls.min.js"></script>
-    <div id="player">
-      <audio id="video" autoplay controls></audio> <label class="center">Status:</label>
-      <pre id="statusOut" class="center" style="white-space: pre-wrap"></pre>
-    </div>
-    <script>
-        var video = document.getElementById('video');
-        var videoSrc = 'http://127.0.0.1:9999';
-        if (Hls.isSupported()) {
-          var hls = new Hls();
-          hls.loadSource(videoSrc);
-          hls.attachMedia(video);
-        }
-        // HLS.js is not supported on platforms that do not have Media Source
-        // Extensions (MSE) enabled.
-        //
-        // When the browser has built-in HLS support (check using `canPlayType`),
-        // we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video
-        // element through the `src` property. This is using the built-in support
-        // of the plain video element, without using HLS.js.
-        //
-        // Note: it would be more normal to wait on the 'canplay' event below however
-        // on Safari (where you are most likely to find built-in HLS support) the
-        // video.src URL must be on the user-driven white-list before a 'canplay'
-        // event will be emitted; the last video event that can be reliably
-        // listened-for when the URL is not on the white-list is 'loadedmetadata'.
-        else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-          video.src = videoSrc;
-          console.log("MSE supported here looks like it...")
-        }
-      </script>
-<script src="geojson.js"> </script>
-    <script>
-        
+            .protected {
+                background: #fff;
+                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                border-radius: 3px;
+                min-width: 500px;
 
-        var map = L.map('map').setView([-40.34, 174.44], 6);
-       function changeURL(newurl, brandname,market,comesfrom) {
-        console.log("Got req to change url : " + newurl + " comes from " + comesfrom);
-        var currentBrand = document.getElementById('windowEnd');
-        var currentMarket = document.getElementById('windowStart');
-        currentBrand.value = brandname;
-        if (comesfrom != "Local") {
-          comesfrom = " comes from: " + comesfrom
-          currentMarket.value = market + comesfrom;
-        } else {
-          currentMarket.value = market;
-        }
-        
-        var video = document.getElementById('video');
-        var videoSrc = newurl;
-        if (Hls.isSupported()) {
-          var hls = new Hls();
-          hls.loadSource(videoSrc);
-          hls.attachMedia(video);
-        }
-        videoSrc = newurl;
-       }
+            }
+            .protected__content {
+                padding: 24px 28px;
+            }
+            .protected__content__heading {
+                font-size: 16px;
+                font-weight: 500;
+                margin: 0 0 12px;
+                line-height: 1;
+            }
+            .protected__alert {
+                display: none;
+                border-bottom: 1px solid transparent;
+                border-radius: 3px 3px 0 0;
+                padding: 12px 14px;
+                color: #a94442;
+                background-color: #f2dede;
+                border-color: #ebccd1;
+            }
+            .protected__content__input {
+                display: block;
+                border: solid 1px #ccc;
+                padding: 12px 14px;
+                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                font-size: 16px;
+                width: 100%;
+                border-radius: 3px;
 
-        function onEachFeature(feature, layer) {
-		var popupContent = `<p><ul>`;
-      var length = feature.properties.brands.length;
-      var market = feature.properties.market;
-      var comesfrom = "";
-      comesfrom = feature.properties.comesfrom;
-      var brand1 = feature.properties.brands[1];
-      var brand2 = feature.properties.brands[2];
-      for (i=0;i<feature.properties.brands.length;i++){
-                var url = feature.properties.brands[i].url;
-                
-                var brandName = feature.properties.brands[i].name;
-                var logo = feature.properties.brands[i].logo; 
-                if (comesfrom) {
-                  var brandstring = `<br><span class="spanImage" style="background-image: url('logos/${logo}');" onclick="changeURL('${url}', '${brandName}','${market}','${comesfrom}')" style='font-weight:bold'></span>`
+                margin-bottom: 12px;
+            }
+            .protected__content__input:focus {
+                outline: none;
+                border-color: #228843;
+            }
+            .protected__content__btn {
+                background-color: #228843;
+                border-radius: 3px;
+                cursor: pointer;
+                border: none;
+                color: #fff;
+                padding: 12px 14px;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                font-weight: 500;
+                font-size: 16px;
 
-                } else {
-                  var brandstring = `<br><span class="spanImage" style="background-image: url('logos/${logo}');" onclick="changeURL('${url}', '${brandName}','${market}','Local')" style='font-weight:bold'></span>`
+            }
+            .protected__content__btn:hover {
+                background-color: #1C6D36;
+            }
 
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="protected">
+            <div class="protected__alert" data-id="alert">You entered the wrong password</div>
+            <div class="protected__content">
+                <h1 class="protected__content__heading">You need a password to continue</h1>
+                <input class="protected__content__input" data-id="password" type="password" placeholder="password"/>
+                <button data-id="button" type="button" class="protected__content__btn">Continue</button>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
+        <script type="text/javascript">
+            "use strict"
+            var button = document.querySelectorAll('[data-id="button"]')
+            var password = document.querySelectorAll('[data-id="password"]')
+
+            function login(secret) {
+                var hash = sha1(secret)
+                var url = hash + "/index.html"
+                var alert = document.querySelectorAll('[data-id="alert"]')
+
+                var request = new XMLHttpRequest()
+                request.open('GET', url, true)
+
+                request.onload = function () {
+                    if (request.status >= 200 && request.status < 400) {
+                        window.location = url
+                    } else {
+                        parent.location.hash = hash
+                        alert[0].style.display = 'block'
+                        password[0].setAttribute('placeholder', 'Incorrect password')
+                        password[0].value = ''
+                    }
                 }
-                popupContent = popupContent + brandstring;
-      }
-      
-      popupContent = popupContent + `
-          </ul>
-        </p>
-        <p>
-            ${feature.properties.market}
-        </p>
-        `;
-        if (feature.properties.comesfrom) {
-          popupContent = popupContent + `
-            <b>This market is streamed from ${feature.properties.comesfrom}
-          `;
-        }
+                request.onerror = function () {
+                    parent.location.hash = hash
+                    alert[0].style.display = 'block'
+                    password[0].setAttribute('placeholder', 'Incorrect password')
+                    password[0].value = ''
+                }
+                request.send()
+            }
 
-		if (feature.properties && feature.properties.popupContent) {
-			popupContent += feature.properties.popupContent;
-		}
+            button[0].addEventListener("click", function () {
+                login(password[0].value)
+            })
 
-		layer.bindPopup(popupContent);
-	}
-        var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(map);
-    
-
-    
-        map.on('click');
-        L.geoJSON(geojsonFeature,{onEachFeature: onEachFeature}).addTo(map);
-       
-    </script>
-    
-</body>
-
+            document.onkeydown = function (e) {
+                e = e || window.event
+                if (e.keyCode == 13) {
+                    login(password[0].value)
+                }
+            }
+        </script>
+    </body>
 </html>

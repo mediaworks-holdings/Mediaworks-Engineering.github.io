@@ -1,0 +1,150 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+    <link rel="stylesheet" href="map.css"/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+ integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+ crossorigin=""></script>
+ <script src="status2.js">   </script>
+ <script src="status.js">   </script>
+ <style>
+  .spanImage{
+      
+      background-repeat: no-repeat;
+      background-size: 100px 30px;
+      
+      width: 120px;
+      height: 30px;
+      display: inline-block;
+      padding: 10px;
+  }
+  </style>
+</head>
+<body>
+
+    <div id=map>
+    </div>
+ <div id="hidden">
+<input class=statusbox type="text" id="windowEnd"/>
+<input class=statusbox type="text" id="windowStart"/>
+
+ </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.2.5-0.canary.8649/hls.min.js"></script>
+    <div id="player">
+      <audio id="video" autoplay controls></audio> <label class="center">Status:</label>
+      <pre id="statusOut" class="center" style="white-space: pre-wrap"></pre>
+    </div>
+    <script>
+        var video = document.getElementById('video');
+        var videoSrc = 'http://127.0.0.1:9999';
+        if (Hls.isSupported()) {
+          var hls = new Hls();
+          hls.loadSource(videoSrc);
+          hls.attachMedia(video);
+        }
+        // HLS.js is not supported on platforms that do not have Media Source
+        // Extensions (MSE) enabled.
+        //
+        // When the browser has built-in HLS support (check using `canPlayType`),
+        // we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video
+        // element through the `src` property. This is using the built-in support
+        // of the plain video element, without using HLS.js.
+        //
+        // Note: it would be more normal to wait on the 'canplay' event below however
+        // on Safari (where you are most likely to find built-in HLS support) the
+        // video.src URL must be on the user-driven white-list before a 'canplay'
+        // event will be emitted; the last video event that can be reliably
+        // listened-for when the URL is not on the white-list is 'loadedmetadata'.
+        else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+          video.src = videoSrc;
+          console.log("MSE supported here looks like it...")
+        }
+      </script>
+<script src="geojson.js"> </script>
+    <script>
+        
+
+        var map = L.map('map').setView([-40.34, 174.44], 6);
+       function changeURL(newurl, brandname,market,comesfrom) {
+        console.log("Got req to change url : " + newurl + " comes from " + comesfrom);
+        var currentBrand = document.getElementById('windowEnd');
+        var currentMarket = document.getElementById('windowStart');
+        currentBrand.value = brandname;
+        if (comesfrom != "Local") {
+          comesfrom = " comes from: " + comesfrom
+          currentMarket.value = market + comesfrom;
+        } else {
+          currentMarket.value = market;
+        }
+        
+        var video = document.getElementById('video');
+        var videoSrc = newurl;
+        if (Hls.isSupported()) {
+          var hls = new Hls();
+          hls.loadSource(videoSrc);
+          hls.attachMedia(video);
+        }
+        videoSrc = newurl;
+       }
+
+        function onEachFeature(feature, layer) {
+		var popupContent = `<p><ul>`;
+      var length = feature.properties.brands.length;
+      var market = feature.properties.market;
+      var comesfrom = "";
+      comesfrom = feature.properties.comesfrom;
+      var brand1 = feature.properties.brands[1];
+      var brand2 = feature.properties.brands[2];
+      for (i=0;i<feature.properties.brands.length;i++){
+                var url = feature.properties.brands[i].url;
+                
+                var brandName = feature.properties.brands[i].name;
+                var logo = feature.properties.brands[i].logo; 
+                if (comesfrom) {
+                  var brandstring = `<br><span class="spanImage" style="background-image: url('logos/${logo}');" onclick="changeURL('${url}', '${brandName}','${market}','${comesfrom}')" style='font-weight:bold'></span>`
+
+                } else {
+                  var brandstring = `<br><span class="spanImage" style="background-image: url('logos/${logo}');" onclick="changeURL('${url}', '${brandName}','${market}','Local')" style='font-weight:bold'></span>`
+
+                }
+                popupContent = popupContent + brandstring;
+      }
+      
+      popupContent = popupContent + `
+          </ul>
+        </p>
+        <p>
+            ${feature.properties.market}
+        </p>
+        `;
+        if (feature.properties.comesfrom) {
+          popupContent = popupContent + `
+            <b>This market is streamed from ${feature.properties.comesfrom}
+          `;
+        }
+
+		if (feature.properties && feature.properties.popupContent) {
+			popupContent += feature.properties.popupContent;
+		}
+
+		layer.bindPopup(popupContent);
+	}
+        var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+    
+
+    
+        map.on('click');
+        L.geoJSON(geojsonFeature,{onEachFeature: onEachFeature}).addTo(map);
+       
+    </script>
+    
+</body>
+
+</html>
