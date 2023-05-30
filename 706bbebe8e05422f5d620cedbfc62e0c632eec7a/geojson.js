@@ -171,6 +171,39 @@ var geojsonFeature = {
 				]
 			}
 		},
+		     {
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "oil-well",
+				"market": "Whakatane",
+				"comesfrom": "Tauranga",
+				"brands": [{
+						"name": "The Edge",
+						"url": "https://livestream.mediaworks.nz/radio_origin/edge_[WHK]_128kbps/playlist.m3u8",
+						"logo": "EDGE.png"
+					},
+					   {
+						"name": "The Breeze",
+						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[WHK]_128kbps/playlist.m3u8",
+						"logo": "BREEZE.png"
+					},
+					{
+						"name": "Sound",
+						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[WHK]_128kbps/playlist.m3u8",
+						"logo": "SOUND.png"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					176.98277326753936,
+					-37.95987797638138
+				]
+			}
+		},
 		{
 			"type": "Feature",
 			"properties": {
