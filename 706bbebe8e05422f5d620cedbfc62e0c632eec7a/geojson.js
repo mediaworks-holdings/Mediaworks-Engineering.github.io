@@ -372,6 +372,11 @@ var geojsonFeature = {
 						"url": "https://livestream.mediaworks.nz/radio_origin/sound_[TGA]_128kbps/playlist.m3u8",
 						"logo": "SOUND.png"
 					},
+					   {
+						"name": "George",
+						"url": "https://livestream.mediaworks.nz/radio_origin/george_[TGA]_128kbps/playlist.m3u8",
+						"logo": "GEORGE.png"
+					},
 					{
 						"name": "Magic",
 						"url": "https://livestream.mediaworks.nz/radio_origin/magic_[TGA]_128kbps/playlist.m3u8",
