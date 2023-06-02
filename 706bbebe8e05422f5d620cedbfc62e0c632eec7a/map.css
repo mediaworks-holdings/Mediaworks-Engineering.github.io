@@ -1,12 +1,13 @@
 #map {
      height: 90vh;
 }
-body { background-color: rgb(170, 211, 223); 
+body { background-color: rgb(100, 100, 100); 
 margin: 0;}
 #player { 
-    background-color: rgb(170, 211, 223);
-    margin-top: 25;
-    margin-left: 40;
+    background-color: rgb(100, 100, 100);
+    margin-top: 20;
+    margin-left: 50;
+    margin-right: 50;
     height: 9vb
 }
 #video {
@@ -14,5 +15,18 @@ margin: 0;}
     vertical-align: top;
 }
 .statusbox {
- width:48vw
+ width:10vw;
+ font: 200;
+ font-size: large;
+ margin-left: 20;
+ margin-top: 10
 }
+    .image{
+        src: 706bbebe8e05422f5d620cedbfc62e0c632eec7a/logos/The MW Engineering;
+        width: 120px;
+        height: 40px;
+        display: inline-block;
+        object-position: bottom right;
+        padding: 7px;
+    }
+
