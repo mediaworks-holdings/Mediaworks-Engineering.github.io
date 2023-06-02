@@ -119,6 +119,11 @@ var geojsonFeature = {
 						"name": "ChannelX",
 						"url": "https://digitalstreams.mediaworks.nz/chx_net_high/playlist.m3u8",
 						"logo": "ChannelX.png"
+					},
+					{
+						"name": "Humm",
+						"url": "https://digitalstreams.mediaworks.nz/humm_net/playlist.m3u8",
+						"logo": "Humm.png"
 					}]
 			},
 			"geometry": {

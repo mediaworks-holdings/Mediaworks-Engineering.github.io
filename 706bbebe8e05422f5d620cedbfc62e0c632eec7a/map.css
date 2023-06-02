@@ -1,11 +1,13 @@
 #map {
      height: 90vh;
 }
-body { background-color: black; 
+body { background-color: rgb(170, 211, 223); 
 margin: 0;}
 #player { 
     background-color: rgb(170, 211, 223);
-    margin:0;
+    margin-top: 25;
+    margin-left: 40;
+    height: 9vb
 }
 #video {
     margin:0;
