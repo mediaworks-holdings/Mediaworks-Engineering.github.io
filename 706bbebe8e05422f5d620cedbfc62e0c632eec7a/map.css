@@ -6,7 +6,7 @@ margin: 0;}
 #player { 
     background-color: rgb(100, 100, 100);
     margin-top: 20;
-    margin-left: 50;
+    margin-left: 55;
     margin-right: 50;
     height: 9vb
 }
@@ -15,7 +15,7 @@ margin: 0;}
     vertical-align: top;
 }
 .statusbox {
- width:10vw;
+ width:22vw;
  font: 200;
  font-size: large;
  margin-left: 20;

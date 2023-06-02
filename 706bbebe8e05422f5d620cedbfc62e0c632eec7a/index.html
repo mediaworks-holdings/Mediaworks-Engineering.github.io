@@ -75,7 +75,7 @@
         var currentMarket = document.getElementById('windowStart');
         currentBrand.value = brandname;
         if (comesfrom != "Local") {
-          comesfrom = " comes from: " + comesfrom
+          comesfrom = " stream is hosted in " + comesfrom
           currentMarket.value = market + comesfrom;
         } else {
           currentMarket.value = market;
@@ -123,7 +123,7 @@
         `;
         if (feature.properties.comesfrom) {
           popupContent = popupContent + `
-            <b>Streams here originate from ${feature.properties.comesfrom}
+            <b>Streams here are hosted in ${feature.properties.comesfrom}
           `;
         }
 

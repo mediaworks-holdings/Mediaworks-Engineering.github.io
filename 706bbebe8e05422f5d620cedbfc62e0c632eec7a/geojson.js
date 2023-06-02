@@ -755,8 +755,25 @@ var geojsonFeature = {
 						"name": "The Edge",
 						"url": "https://livestream.mediaworks.nz/radio_origin/magic_[THA]_128kbps/playlist.m3u8",
 						"logo": "MAGIC.png"
-					},
-					{
+					}]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					175.543539971186,
+					-37.14096450250956
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#7e7e7e",
+				"marker-size": "medium",
+				"marker-symbol": "",
+				"market": "Whitianga",
+				"comesfrom": "Thames",
+				"brands": [{
 						"name": "The Rock",
 						"url": "https://livestream.mediaworks.nz/radio_origin/rock_[THA]_128kbps/playlist.m3u8",
 						"logo": "ROCK.png"
@@ -765,8 +782,8 @@ var geojsonFeature = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					175.543539971186,
-					-37.14096450250956
+					175.704806,
+					-36.834472
 				]
 			}
 		},
