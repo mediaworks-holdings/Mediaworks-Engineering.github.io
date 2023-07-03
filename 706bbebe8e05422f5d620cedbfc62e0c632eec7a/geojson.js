@@ -154,7 +154,7 @@ var geojsonFeature = {
 					{
 						"name": "The Rock",
 						"url": "https://livestream.mediaworks.nz/radio_origin/rock_[ORW]_128kbps/playlist.m3u8",
-						"logo": "6665465.png"
+						"logo": "ROCK.png"
 					},
 					{
 						"name": "The Sound",
