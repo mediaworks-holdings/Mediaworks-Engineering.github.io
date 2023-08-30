@@ -794,6 +794,7 @@ var geojsonFeature = {
 				"marker-size": "medium",
 				"marker-symbol": "",
 				"market": "Timaru",
+				"comesfrom": "Christchurch",
 				"brands": [{
 						"name": "More FM",
 						"url": "https://livestream.mediaworks.nz/radio_origin/more_[TIU]_128kbps/playlist.m3u8",
@@ -1467,7 +1468,7 @@ var geojsonFeature = {
 				"marker-size": "medium",
 				"marker-symbol": "",
 				"market": "Oamaru",
-				"comesfrom": "Timaru",
+				"comesfrom": "Christchurch",
 				"brands": [
 					{
 						"name": "More FM",
