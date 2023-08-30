@@ -1445,7 +1445,7 @@ var geojsonFeature = {
 				"marker-size": "medium",
 				"marker-symbol": "",
 				"market": "Ashburton",
-				"comesfrom": "Timaru",
+				"comesfrom": "Christchurch",
 				"brands": [
 					{
 						"name": "More FM",
