@@ -122,7 +122,7 @@ var geojsonFeature = {
 					},
 					{
 						"name": "Humm",
-						"url": "https://digitalstreams.mediaworks.nz/humm_net/playlist.m3u8",
+						"url": "https://digitalstreams.mediaworks.nz:443/humm_net/playlist.m3u8",
 						"logo": "Humm.png"
 					}]
 			},
