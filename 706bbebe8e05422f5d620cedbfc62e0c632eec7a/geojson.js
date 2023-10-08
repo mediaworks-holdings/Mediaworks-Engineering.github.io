@@ -9,7 +9,7 @@ var geojsonFeature = {
 				"market": "Auckland",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-AKL-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -143,7 +143,7 @@ var geojsonFeature = {
 				"market": "Orewa",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[ORW]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-ORW-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -216,7 +216,7 @@ var geojsonFeature = {
 				"market": "Whangarei",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[WHG]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-WHG-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -284,12 +284,12 @@ var geojsonFeature = {
 				"market": "Hamilton",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[HAM]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-HAM-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[HAM]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-HAM-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -345,12 +345,12 @@ var geojsonFeature = {
 				"market": "Tauranga",
 				"brands": [{
 					"name": "More FM",
-					"url": "https://livestream.mediaworks.nz/radio_origin/more_[TGA]_128kbps/playlist.m3u8",
+					"url": "https://digitalstreams3.mediaworks.nz/more-TGA-high/playlist.m3u8",
 					"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[TGA]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-TGA-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -407,7 +407,7 @@ var geojsonFeature = {
 				"comesfrom": "Auckland",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[ROT]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-ROT-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -463,12 +463,12 @@ var geojsonFeature = {
 				"market": "Hastings",
 				"brands": [{
 						"name": "MoreFM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[HST]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-HST-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[HST]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-HST-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -519,12 +519,12 @@ var geojsonFeature = {
 				"market": "Palmerston North",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[PMR]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-PMR-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[PMR]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-PMR-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -580,12 +580,12 @@ var geojsonFeature = {
 				"market": "Wellington",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[WTN]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-WTN-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[WTN]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-WTN-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -641,7 +641,7 @@ var geojsonFeature = {
 				"market": "Wanganui",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[WNG]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-WAG-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -692,7 +692,7 @@ var geojsonFeature = {
 				"market": "Masterton",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[MST]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-MST-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -743,7 +743,7 @@ var geojsonFeature = {
 				"market": "Thames",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[THA]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-THA-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -797,12 +797,12 @@ var geojsonFeature = {
 				"comesfrom": "Christchurch",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[TIU]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-TIU-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[TIU]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-TIU-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -848,7 +848,7 @@ var geojsonFeature = {
 				"market": "Taupo",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[TPO]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-TPO-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -894,7 +894,7 @@ var geojsonFeature = {
 				"market": "Invercargill",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[IVC]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-IVC-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -945,7 +945,7 @@ var geojsonFeature = {
 				"market": "Queenstown",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[QTN]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-QTN-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -1002,7 +1002,7 @@ var geojsonFeature = {
 				"comesfrom": "Queenstown",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[COT]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-COT-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					}]
 			},
@@ -1023,12 +1023,12 @@ var geojsonFeature = {
 				"market": "Nelson",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[NSN]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-NSN-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[NSN]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-NSN-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -1080,12 +1080,12 @@ var geojsonFeature = {
 				"comesfrom": "Wellington",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[KAP]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-KAP-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[KAP]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-KAP-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -1131,7 +1131,7 @@ var geojsonFeature = {
 				"market": "Gisborne",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[GIS]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-GIS-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -1204,12 +1204,12 @@ var geojsonFeature = {
 				"market": "Dunedin",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more974_[DUN]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more974-DUN-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[DUN]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-DUN-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -1265,12 +1265,12 @@ var geojsonFeature = {
 				"market": "Christchurch",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[CHC]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-CHC-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://livestream.mediaworks.nz/radio_origin/breeze_[CHC]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/breeze-CHC-high/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
@@ -1327,7 +1327,7 @@ var geojsonFeature = {
 				"comesfrom": "Nelson",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[BLM]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-BLM-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -1378,7 +1378,7 @@ var geojsonFeature = {
 				"market": "Taranaki",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[NPL]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-NPL-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
@@ -1426,7 +1426,7 @@ var geojsonFeature = {
 				"brands": [
 					{
 						"name": "More FM",
-						"url": "https://livestream.mediaworks.nz/radio_origin/more_[BAL]_128kbps/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/more-BAL-high/playlist.m3u8",
 						"logo": "MOREFM.png"
 					}]
 			},
