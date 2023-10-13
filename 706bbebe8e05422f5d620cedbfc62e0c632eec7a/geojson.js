@@ -123,7 +123,7 @@ var geojsonFeature = {
 					{
 						"name": "Humm",
 						"url": "https://digitalstreams.mediaworks.nz:443/humm_net/playlist.m3u8",
-						"logo": "Humm.png"
+						"logo": "HUMM.png"
 					}]
 			},
 			"geometry": {
