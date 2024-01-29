@@ -185,7 +185,7 @@ var geojsonFeature = {
 				    	},
 					{
 						"name": "The Edge",
-						"https://digitalstreams3.mediaworks.nz/edge-WHK-low/playlist.m3u8",
+						"url": "https://digitalstreams3.mediaworks.nz/edge-WHK-low/playlist.m3u8",
 						"logo": "EDGE.png"
 					},
 					{
