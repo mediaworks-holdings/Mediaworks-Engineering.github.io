@@ -77,12 +77,12 @@ var geojsonFeature = {
 				"market": "DAI Streams",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://digitalstreams-edge-lb.mediaworks.nz/edge_net/more_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/more_net/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://digitalstreams-edge-lb.mediaworks.nz/edge_net/breeze_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/breeze_net/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
