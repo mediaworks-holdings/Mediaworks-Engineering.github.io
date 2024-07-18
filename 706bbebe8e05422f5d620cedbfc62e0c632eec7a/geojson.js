@@ -77,52 +77,52 @@ var geojsonFeature = {
 				"market": "DAI Streams",
 				"brands": [{
 						"name": "More FM",
-						"url": "https://digitalstreams.mediaworks.nz:443/more_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/edge_net/more_net/playlist.m3u8",
 						"logo": "MOREFM.png"
 					},
 					{
 						"name": "The Breeze",
-						"url": "https://digitalstreams.mediaworks.nz:443/breeze_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/edge_net/breeze_net/playlist.m3u8",
 						"logo": "BREEZE.png"
 					},
 					{
 						"name": "The Edge",
-						"url": "https://digitalstreams.mediaworks.nz:443/edge_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/edge_net/playlist.m3u8",
 						"logo": "EDGE.png"
 					},
 					{
 						"name": "The Rock",
-						"url": "https://digitalstreams.mediaworks.nz:443/rock_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/rock_net/playlist.m3u8",
 						"logo": "ROCK.png"
 					},
 					{
 						"name": "The Sound",
-						"url": "https://digitalstreams.mediaworks.nz:443/sound_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/sound_net/playlist.m3u8",
 						"logo": "SOUND.png"
 					},
 					{
 						"name": "Mai FM",
-						"url": "https://digitalstreams.mediaworks.nz:443/mai_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/mai_net/playlist.m3u8",
 						"logo": "MAI.png"
 					},
 					{
 						"name": "George FM",
-						"url": "https://digitalstreams.mediaworks.nz:443/george_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/george_net/playlist.m3u8",
 						"logo": "GEORGE.png"
 					},
 					{
 						"name": "Magic",
-						"url": "https://digitalstreams.mediaworks.nz:443/mmusic_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/magic_net/playlist.m3u8",
 						"logo": "MAGIC.png"
 					},
 					   {
 						"name": "ChannelX",
-						"url": "https://digitalstreams.mediaworks.nz:443/chx_net_high/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/chx_net_high/playlist.m3u8",
 						"logo": "ChannelX.png"
 					},
 					{
 						"name": "Humm",
-						"url": "https://digitalstreams.mediaworks.nz:443/humm_net/playlist.m3u8",
+						"url": "https://digitalstreams-edge-lb.mediaworks.nz/humm_net/playlist.m3u8",
 						"logo": "HUMM.png"
 					}]
 			},
